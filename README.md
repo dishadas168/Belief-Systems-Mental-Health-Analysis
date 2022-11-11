@@ -15,27 +15,42 @@ I scraped Reddit using Pushshift.io API. I found all the authors who have posted
 ## Analysis
 
 All analyses were run for each of the mental health subreddits.
+
 N-gram comparison: Extracted top 10 unigrams and bigrams
+
 Wordcloud comparison: Wordclouds of unigrams and bigrams
+
 Polarity: Comparison of positive or negative sentiment score distributions
+
 Subjectivity: Comparison of subjective or objective score distribution
+
 Emapth Category: Similar to LIWC, Empath library categorizes text into topics related to emotions, cognition, work, actions etc. We compare the highest scoring Empath categories and their average values.
+
 NRCLex Category: This is a library that is entirely focused on deriving emotion from a text. There are 10 emotional categories and the average values of each of these are compared.
+
 Verb Category Frequency: This is derived from Wordnet library and extracting the logical grouping of verbs (known as lexnames). 
+
 Noun Category Frequency: Similar to above, but for nouns.
+
 SFA: It has been found that Self-Focused Attention can be an indicator of non-chronic depression. Comparison of the frequency of self-referential words such as “I”, “Me”, “Mine”, etc. is performed.
+
 Emotion Change: Using linear regression on each of NRCLex and Empath Categories, I found the change in the values in these categories over time, for each author. This comparison can give an idea of recovery/deterioration over a period of time.    
+
 Statistical Significance: Used a non-parametric test like Mann-Whitney U-test to compare differences between the distributions of emotion change data between the two groups. Alpha value was set at 0.05. Both two-tailed and one tailed tests were conducted. 
+
 Trend: Data starting from January, 2019 to present is taken. I found the trend of average NRCLex values and made a time series comparison. This could give an idea of the change experienced by each of these groups as a result of the Covid-19 situation. 
 
 ## Mental Health Subreddits
+
 ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, NarcissisticAbuse, OCD
 
 
 ## Results
 
 ### ADHD
+
 Nietzsche to NevilleGoddard post ratio: 155:90
+
 Polarity scores for NevilleGoddard posts seems to be balanced between positive and negative sentiments. On the other hand, Nietzsche posts are skewed towards positive sentiments.
 When it comes to Subjectivity, Neville Goddard posts seem to be more subjective than Nietzsche posts
 Looking at Empath category plots, there’s more talk of health in NevilleGoddard forums, perhaps regarding use of drugs (“Vyvanse mg”, “Adderall”, “mg”) for ADHD. This can be corroborated from comparing the N-grams and Wordclouds from these communities. 
@@ -58,6 +73,7 @@ To conclude the analysis of ADHD forum, one can say that the recovery experience
 
 
 ### Depression:
+
 Nietzsche to NevilleGoddard post ratio: 145:70
 There doesn’t seem to be any skewness in Polarity scores. The same goes for Subjectivity.
 When it comes to Empath Average Values, NevilleGoddard dominates in the emotion department (negative emotion, pain, violence, sadness, shame, love, suffering, nervousness, swearing terms). This is surprising as the polarity distributions looked similar. On the other hand, Nietzsche forum dominates in positive emotions such as speaking, communication, positive emotion, friends, giving, etc. There is a clear difference in the emotion distribution between the two subreddits, with Nietzsche tending towards the positive side.
@@ -68,6 +84,7 @@ Responses to Covid19 is similar for both the subreddits except Anticipation. Cov
 For depression, everything indicates to Nietzsche being a healthier belief system than NevilleGoddard.
 
 ### BPD:
+
 Nietzsche to NevilleGoddard post ratio: 112: 62
 While not much difference is observed in the distributions for Polarity, a higher subjectivity is observed in NevilleGoddard posts.
 Empath categories point to a prevalence of negative emotions (pain, violence, negative emotion, shame) for both the subreddits. However, Nietzsche has higher scores for speaking, optimism and communication. Along with that, Nervousness stands out as a frequent category in Nietzsche.
@@ -78,6 +95,7 @@ For BPD, it is clear that NevilleGoddard posts have a bias towards being more em
 Both the belief systems have more or less similar effects on the posts of these authors. A clear recommendation is hard to make.
 
 ### Socialskills:
+
 Nietzsche to NevilleGoddard post ratio: 87:55
 Polarity scores for Nietzsche lean slightly towards the positive and tend to be less subjective than NevilleGoddard posts.
 There is a stark difference between emotionality. NevilleGoddard posts tend to have more positive and negative emotions than Nietzsche posts, pointing to a lack of emotional talk pertaining to the subject of social skills. In the N-gram analysis, it is observed that Nietzsche posts focus more on the practical ways to tackle social anxiety. This is due to the top two bigrams- “small talk” and  “social skills”. Compare this with more subjective terms in NevilleGoddard posts such as “social situations”, “best friend”, “passive aggressive”, “people accuse”. 
@@ -90,6 +108,7 @@ It is very clear that the belief system of NevilleGoddard doesn’t serve well t
 
 
 ### SuicideWatch:
+
 Nietzsche to NevilleGoddard post ratio: 112: 137
 It is surprising that the word “die” which is expected to be prevalently used for a suicide forum doesn’t make it to the top 10 list of Nietzsche posts. 
 As usual, NevilleGoddard posts are slightly more subjective.
@@ -102,6 +121,7 @@ Covid19 reactions are mostly negative for NevilleGoddard posts as compared to Ni
 Again, Nietzsche posts show a clear improvement in SuicideWatch forum while NevilleGoddard posts are ambiguous.
 
 ### CPTSD:
+
 Nietzsche to NevilleGoddard post ratio: 82:80
 There is a clear dominance of negative emotions in NevilleGoddard posts with top scoring categories violence, pain, love, shame, negative emotion, body. Positive emotion and speaking are higher for Nietzsche posts. 
 NRCLex average categories are similar except higher scores of anger and disgust for Nietzsche posts.
@@ -111,6 +131,7 @@ NevilleGoddard posts have a greater value for negative emotions as a response to
 There’s no clear recommendation of a belief system for CPTSD sufferers.
 
 ### Raisedbynarcissists:
+
 Nietzsche to NevilleGoddard post ratio: 40:80
 There is a clear dominance of negativity in Nietzsche posts over NevilleGoddard posts (positive emotion, negative emotion, pain, shame, dispute, swearing terms, suffering). But in NRCLex Category average plot, Nietzsche posts tend to have greater positive and trust scores and lesser negative and fear scores. 
 Anticipation change is statistically significant (p = 0.01). NevilleGoddard posts have a lesser change in anticipation than Nietzsche posts. From the boxplot, we observe that the change is towards a decrease in anticipation for NevilleGoddard posts, and the opposite for Nietzsche posts. Another opposite trend is fear. Fear decreases for Nietzsche and doesn’t for NevilleGoddard. Negativity increases for Nietzsche posts but sadness decreases. From the observations so far, it is hard to point at a recovery pattern for Nietzsche posts. However for NevilleGoddard posts, the positives decrease and negatives increase. 
@@ -118,6 +139,7 @@ As usual, NevilleGoddard posts tend to score higher in negative emotion categori
 In this case, neither of the belief systems is recommended to be pursued as neither showed any indications of recovery.
 
 ### NarcissisticAbuse:
+
 Nietzsche to NevilleGoddard post ratio: 47: 75
 NevilleGoddard posts tend towards positive polarity.
 Nietzsche posts have a dominance of negative emotions over NevilleGoddard posts.
@@ -125,6 +147,7 @@ But for NRCLex avg values, Nietzsche posts tend to have a much greater anticipat
 NevilleGoddard posts show a tendency to recovery, as seen from decreasing fear, anger, surprise, negative, sadness, disgust. Anticipation shows an increase. Nietzsche emotions don’t show greater changes than NevilleGoddard’s. So it is safe to assume that the belief system of NevilleGoddard serves this case better. This is corroborated from Covid19 response plots, where except for fear and anger, where NevilleGoddard posts show a starkly greater value, all other values are more or less similar to Nietzsche’s. 
 
 ### OCD:
+
 Nietzsche to NevilleGoddard post ratio: 55:50
 From bigram counts, it is very obvious that the posts from NevilleGoddard have a lot of mentions of the law of attraction which is not related to the mental health concern of OCD.
 NevilleGoddard posts have a slight tendency towards negative polarity.
@@ -135,6 +158,7 @@ As a response to Covid19, Nietzsche posts show a greater value for all emotion c
 Since the results are ambiguous, no belief system is found to help the cause of OCD.
 
 ### Results:
+
 Users that subscribed to the belief system of Existentialism seem to have a greater improvement across most of the mental health subreddits that have been examined here.
 
 ## Limitations
