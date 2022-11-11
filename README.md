@@ -1,16 +1,19 @@
 # Existentialism vs The Law of Attraction - Belief Systems Impact on Mental Health
 
-Motivation behind this project
+## Motivation behind this project
+
 Existentialism is killing me. What started out as a spiritual journey has now completely left me broken. Okay so I’m terrified of mortality and death. But I’m not a simple case, I think I might have some form of ocd. I keep looking at the world around me and feeling this horrible dread. “Is this a simulation game?” “Am I in hell, is god evil?” “What is all this”.
 
 This was posted on r/Existentialism in October, 2022. The author is one among many on the subreddit that subscribes to Friedrich Nietzsche’s philosophy of Existentialism. The gist of the Existential mindset is that life is meaningless, so we can make up our own meaning. Taking this one step further, an analytical mind is forced to ask, “Why live at all then? Life is uncomfortable afterall.” It is an observation that regular people don’t actively think about the meaning of life and get an existential crisis. On the other hand, one cursory glance at this particular subreddit is enough to give the reader an idea that the majority of posts revolve around the concept of “suicide as a result of meaninglessness.” 
 
 This led me to investigate the effect of mental health problems as a result of belief systems such as the one above. Existentialism is based on observed reality. There are a number of philosophies in the spiritual domain that don’t always have roots in (commonly) observed reality, such as New Age, Law of Attraction, or Vedantic philosophies. I wanted to compare the impacts of belief systems on reddit users who post in one or more of mental health subreddits such as SuicideWatch, BPD, etc. and observe any general differences between two vastly different philosophies. For this purpose, I chose r/Nietzsche representing Existentialism and r/NevilleGoddard representing Law of Attraction. Law of Attraction is a new age philosophy popularized in the book The Secret. The gist of this philosophy is that you attract your life’s experiences by the thoughts you think. In my opinion, this stands in stark contrast to Existentialism, and hence, I chose this for comparison. Ultimately, this project will shed some light on the question, “Which belief system promotes mental health?”
 
-Procedure:
+## Procedure
+
 I scraped Reddit using Pushshift.io API. I found all the authors who have posted in either of the philosophy subreddits and also in any of mental health subreddits. Then I scrape all the posts and comments made by these authors and run a comparison between them. Turns out that authors that post in either of these philosophy subreddits are mutually exclusive.
 
-Analysis:
+## Analysis
+
 All analyses were run for each of the mental health subreddits.
 N-gram comparison: Extracted top 10 unigrams and bigrams
 Wordcloud comparison: Wordclouds of unigrams and bigrams
@@ -22,10 +25,14 @@ Verb Category Frequency: This is derived from Wordnet library and extracting the
 Noun Category Frequency: Similar to above, but for nouns.
 SFA: It has been found that Self-Focused Attention can be an indicator of non-chronic depression. Comparison of the frequency of self-referential words such as “I”, “Me”, “Mine”, etc. is performed.
 Emotion Change: Using linear regression on each of NRCLex and Empath Categories, I found the change in the values in these categories over time, for each author. This comparison can give an idea of recovery/deterioration over a period of time.    
+Statistical Significance: Used a non-parametric test like Mann-Whitney U-test to compare differences between the distributions of emotion change data between the two groups. Alpha value was set at 0.05. Both two-tailed and one tailed tests were conducted. 
 Trend: Data starting from January, 2019 to present is taken. I found the trend of average NRCLex values and made a time series comparison. This could give an idea of the change experienced by each of these groups as a result of the Covid-19 situation. 
 
-Mental Health Subreddits:
+## Mental Health Subreddits
 ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, NarcissisticAbuse, OCD
+
+
+## Results
 
 ADHD:
 Nietzsche to NevilleGoddard post ratio: 155:90
