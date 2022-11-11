@@ -1,49 +1,99 @@
 # Existentialism vs The Law of Attraction - Belief Systems Impact on Mental Health
 
+## Contents
+
+- Motivation
+- Procedure
+- Analysis
+- Mental Health Subreddits
+- Results
+  - ADHD
+  - depression
+  - BPD
+  - socialskills
+  - SuicideWatch
+  - CPTSD
+  - raisedbynarcissists
+  - NarcissisticAbuse
+  - OCD
+  - Conclusion
+- Limitations
+- Future Work
+
+----
+
 ## Motivation
 
-Existentialism is killing me. What started out as a spiritual journey has now completely left me broken. Okay so I’m terrified of mortality and death. But I’m not a simple case, I think I might have some form of ocd. I keep looking at the world around me and feeling this horrible dread. “Is this a simulation game?” “Am I in hell, is god evil?” “What is all this”.
+> Existentialism is killing me. What started out as a spiritual journey has now completely left me broken. Okay so I’m terrified of mortality and death. But I’m not a simple case, I think I might have some form of ocd. I keep looking at the world around me and feeling this horrible dread. “Is this a simulation game?” “Am I in hell, is god evil?” “What is all this”.
 
-This was posted on r/Existentialism in October, 2022. The author is one among many on the subreddit that subscribes to Friedrich Nietzsche’s philosophy of Existentialism. The gist of the Existential mindset is that life is meaningless, so we can make up our own meaning. Taking this one step further, an analytical mind is forced to ask, “Why live at all then? Life is uncomfortable afterall.” It is an observation that regular people don’t actively think about the meaning of life and get an existential crisis. On the other hand, one cursory glance at this particular subreddit is enough to give the reader an idea that the majority of posts revolve around the concept of “suicide as a result of meaninglessness.” 
 
-This led me to investigate the effect of mental health problems as a result of belief systems such as the one above. Existentialism is based on observed reality. There are a number of philosophies in the spiritual domain that don’t always have roots in (commonly) observed reality, such as New Age, Law of Attraction, or Vedantic philosophies. I wanted to compare the impacts of belief systems on reddit users who post in one or more of mental health subreddits such as SuicideWatch, BPD, etc. and observe any general differences between two vastly different philosophies. For this purpose, I chose r/Nietzsche representing Existentialism and r/NevilleGoddard representing Law of Attraction. Law of Attraction is a new age philosophy popularized in the book The Secret. The gist of this philosophy is that you attract your life’s experiences by the thoughts you think. In my opinion, this stands in stark contrast to Existentialism, and hence, I chose this for comparison. Ultimately, this project will shed some light on the question, “Which belief system promotes mental health?”
+<br />
+
+This was posted on *r/Existentialism* in October, 2022. The author is one among many on the subreddit that subscribes to *Friedrich Nietzsche*’s philosophy of *Existentialism*. The gist of the Existential mindset is that life is meaningless, so we can make up our own meaning. Taking this one step further, an analytical mind is forced to ask, **“Why live at all then? Life is uncomfortable afterall.”** It is an observation that regular people don’t actively think about the meaning of life and get an existential crisis. On the other hand, one cursory glance at this particular subreddit is enough to give the reader an idea that the majority of posts revolve around the concept of **“suicide as a result of meaninglessness.”** 
+
+<br />
+
+This led me to investigate the effect of mental health problems as a result of belief systems such as the one above. Existentialism is based on observed reality. There are a number of philosophies in the spiritual domain that don’t always have roots in (commonly) observed reality, such as *New Age, Law of Attraction, or Vedantic philosophies*. I wanted to compare the impacts of belief systems on reddit users who post in one or more of mental health subreddits such as *SuicideWatch, BPD,* etc. and observe any general differences between two vastly different philosophies. For this purpose, I chose **r/Nietzsche** representing *Existentialism* and **r/NevilleGoddard** representing *Law of Attraction*. *Law of Attraction* is a new age philosophy popularized in the book *The Secret*. The gist of this philosophy is that you attract your life’s experiences by the thoughts you think. In my opinion, this stands in stark contrast to Existentialism, and hence, I chose this for comparison. Ultimately, this project will shed some light on the question, **“Which belief system promotes mental health?”**
+
+<br />
+
+----
+
+<br />
 
 ## Procedure
 
-I scraped Reddit using Pushshift.io API. I found all the authors who have posted in either of the philosophy subreddits and also in any of mental health subreddits. Then I scrape all the posts and comments made by these authors and run a comparison between them. Turns out that authors that post in either of these philosophy subreddits are mutually exclusive.
+I scraped *Reddit* using **Pushshift.io** API. I found all the authors who have posted in either of the philosophy subreddits and also in any of mental health subreddits. Then I scrape all the posts and comments made by these authors and run a comparison between them. Turns out that authors that post in either of these philosophy subreddits are mutually exclusive.
+
+<br />
+
+----
+
+<br />
 
 ## Analysis
 
 All analyses were run for each of the mental health subreddits.
 
-N-gram comparison: Extracted top 10 unigrams and bigrams
+**N-gram comparison:** Extracted top 10 unigrams and bigrams.
 
-Wordcloud comparison: Wordclouds of unigrams and bigrams
+**Wordcloud comparison:** Wordclouds of unigrams and bigrams.
 
-Polarity: Comparison of positive or negative sentiment score distributions
+**Polarity:** Comparison of positive or negative sentiment score distributions.
 
-Subjectivity: Comparison of subjective or objective score distribution
+**Subjectivity:** Comparison of subjective or objective score distribution.
 
-Emapth Category: Similar to LIWC, Empath library categorizes text into topics related to emotions, cognition, work, actions etc. We compare the highest scoring Empath categories and their average values.
+**Emapth Category:** Similar to *LIWC*, *Empath* library categorizes text into topics related to emotions, cognition, work, actions etc. We compare the highest scoring Empath categories and their average values.
 
-NRCLex Category: This is a library that is entirely focused on deriving emotion from a text. There are 10 emotional categories and the average values of each of these are compared.
+**NRCLex Category:** This is a library that is entirely focused on deriving emotion from a text. There are 10 emotional categories and the average values of each of these are compared.
 
-Verb Category Frequency: This is derived from Wordnet library and extracting the logical grouping of verbs (known as lexnames). 
+**Verb Category Frequency:** This is derived from *Wordnet* library and extracting the logical grouping of verbs (lexnames). 
 
-Noun Category Frequency: Similar to above, but for nouns.
+**Noun Category Frequency:** Similar to above, but for nouns.
 
-SFA: It has been found that Self-Focused Attention can be an indicator of non-chronic depression. Comparison of the frequency of self-referential words such as “I”, “Me”, “Mine”, etc. is performed.
+**SFA:** It has been found that *Self-Focused Attention* can be an indicator of non-chronic depression. Comparison of the frequency of self-referential words such as “I”, “Me”, “Mine”, etc. is performed.
 
-Emotion Change: Using linear regression on each of NRCLex and Empath Categories, I found the change in the values in these categories over time, for each author. This comparison can give an idea of recovery/deterioration over a period of time.    
+**Emotion Change:** Using *Linear Regression* on each of *NRCLex* and *Empath* categories, I found the change in the values in these categories over time, for each author. This comparison can give an idea of recovery/deterioration over a period of time.    
 
-Statistical Significance: Used a non-parametric test like Mann-Whitney U-test to compare differences between the distributions of emotion change data between the two groups. Alpha value was set at 0.05. Both two-tailed and one tailed tests were conducted. 
+**Statistical Significance Test:** Used a non-parametric test like *Mann-Whitney U-test* to compare differences between the distributions of emotion change data between the two groups. Alpha value was set at 0.05. Both two-tailed and one tailed tests were conducted. 
 
-Trend: Data starting from January, 2019 to present is taken. I found the trend of average NRCLex values and made a time series comparison. This could give an idea of the change experienced by each of these groups as a result of the Covid-19 situation. 
+**Trend:** Data starting from *January, 2019* to present is taken. I found the trend of average NRCLex values and made a time series comparison. This could give an idea of the change experienced by each of these groups as a result of the *Covid-19* situation. 
+
+<br />
+
+----
+
+<br />
 
 ## Mental Health Subreddits
 
 ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, NarcissisticAbuse, OCD
 
+<br />
+
+----
+
+<br />
 
 ## Results
 
@@ -161,16 +211,26 @@ Since the results are ambiguous, no belief system is found to help the cause of 
 
 Users that subscribed to the belief system of Existentialism seem to have a greater improvement across most of the mental health subreddits that have been examined here.
 
+----
+
+<br />
+
 ## Limitations
 
--	Neville Goddard is a small subreddit. A larger subreddit revolving around this concept is r/lawofattraction.
--	Similarly, r/Nietzsche is a smaller subreddit compared to r/Existentialism. 
--	The change in emotions data had very few points that have non-zero value. That is the reason why statistical significance tests gave erroneous results. A larger dataset with more authors will be helpful here.
+-	The change in emotions data had very few points that had non-zero values. This is the reason why statistical significance tests gave erroneous results. A larger dataset with more authors will be needed.
+-	*r/NevilleGoddard* is a small subreddit. A larger subreddit revolving around this concept is *r/lawofattraction*.
+-	Similarly, *r/Nietzsche* is a smaller subreddit compared to *r/Existentialism*. 
+
+<br />
+
+----
+
+<br />
 
 ## Future Work
 
--	Due to time constraints, I could scrape data from smaller communities of the respective philosophical approaches. The larger reddit community revolving around the topic of law of attraction is “The Secret” and “lawofattraction”. They have a combined total of xx followers. On the other hand, the subreddit around Nietzsche’s philosophy is “R/Existentialism” with xx followers. I’m currently scraping both of these subreddits for a more thorough comparison between these starkly different approaches to lift. This work can be expanded to compare effects of other starkly different philosophies such as Stoicism, Pessimism, HermeticPrinciples, Atheism, New Age, Zen, Buddhism.
--	Train a Huggingface model on Go dataset for emotion classification of reddit texts
--	Further analysis can be conducted by hand-made lexicons specific to different mental health groups
+-	Due to time constraints, I could only scrape data from smaller communities of the respective philosophical approaches. The larger reddit community revolving around the topic of law of attraction is *r/lawofattraction*. It has a total of 240K members. On the other hand, the subreddit around Nietzsche’s philosophy is *r/Existentialism* with 145K members. I’m currently scraping both of these subreddits for a more thorough comparison between these starkly different philosophies. This work can be expanded to compare effects of other different philosophies such as *Stoicism, Pessimism, Hermetic Principles, Atheism, New Age, Zen, Buddhism, etc.*
+-	Train a *Huggingface* model on *Go* dataset for emotion classification of reddit texts.
+-	Further analysis can be conducted by hand-made *lexicons* specific to different mental health groups.
 -	Conduct analysis on a group of similar subreddits rather than individual subreddits.
 
