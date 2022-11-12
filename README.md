@@ -45,6 +45,8 @@ This led me to investigate the effect of mental health problems as a result of b
 
 I scraped *Reddit* using **Pushshift.io** API. I found all the authors who have posted in either of the philosophy subreddits and also in any of mental health subreddits. Then I scrape all the posts and comments made by these authors and run a comparison between them. Turns out that authors that post in either of these philosophy subreddits are mutually exclusive.
 
+![picture alt](resources/total_posts.png "Title is optional")
+
 <br />
 
 ----
