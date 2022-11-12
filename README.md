@@ -1,24 +1,5 @@
 # Existentialism vs The Law of Attraction - Belief Systems Impact on Mental Health
 
-## Contents
-
-- Motivation
-- Procedure
-- Analysis
-- Mental Health Subreddits
-- ADHD
-- OCD
-- SuicideWatch
-- depression
-- BPD
-- socialskills
-- CPTSD
-- raisedbynarcissists
-- NarcissisticAbuse
-- Results
-- Limitations
-- Future Work
-
 ----
 
 ## Motivation
@@ -102,9 +83,9 @@ ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, N
 
 ## ADHD
 
-**Brief:**
+**Brief:** ADHD is one of the most common neurodevelopmental disorders of childhood. It is usually first diagnosed in childhood and often lasts into adulthood. Children with ADHD may have trouble paying attention, controlling impulsive behaviors (may act without thinking about what the result will be), or be overly active.
 
-**Nietzsche to NevilleGoddard posts ratio:** 155:90
+**Nietzsche:NevilleGoddard posts:** 155:90
 
 **Analysis:**
 
@@ -113,43 +94,50 @@ ADHD Polarity | ADHD Subjectivity
 ![ADHD_Polarity](resources/ADHD_Polarity.png "ADHD_Polarity")  |  ![ADHD_Subjectivity](resources/ADHD_Subjectivity.png "ADHD_Subjectivity")
 
 
-Polarity scores for NevilleGoddard posts seems to be balanced between positive and negative sentiments. On the other hand, Nietzsche posts are skewed towards positive sentiments. When it comes to Subjectivity, NevilleGoddard posts seem to be more subjective.
+- Polarity scores for NevilleGoddard posts seem to be balanced between positive and negative sentiments. 
+- On the other hand, Nietzsche posts are skewed towards positive sentiments. 
+- When it comes to Subjectivity, NevilleGoddard posts seem to be more subjective.
 
 ![ADHD_Empath](resources/ADHD_Empath.png "ADHD_Empath") 
 
 ![ADHD_Bigram](resources/ADHD_Bigram.png "ADHD_Bigram") 
 
-Looking at Empath category plots, there’s more talk of health in NevilleGoddard forums, perhaps regarding use of drugs (“Vyvanse mg”, “Adderall”, “mg”) for ADHD. This can be corroborated from comparing the N-grams and Wordclouds from these communities. 
-
-Average Negative emotion and average positive emotion tends to be less for Nietzsche posts than their respective values from NevilleGoddard. This indicates less emotional posts, or, perhaps a less subjective post which is corroborated from Subjectivity comparison.
-
-There is a higher chance of encountering positive talks of “giving” and “listen” in NevilleGoddard than in Nietzsche. On the other hand, there is a prevalence of talks about “violence”, “nervousness” and “shame” in Nietzsche forums as compared to NevilleGoddard. Can a conclusion be drawn that Neville Goddard commenters look towards the positive aspects of life?
-Some common causes of ADHD seem to stem from topics relating to “business”, “work” and “school”. “work” and “school” talks dominate in Nietzsche forums, while “business” dominates in NevilleGoddard.
+- Looking at Empath category plots, there’s more talk of health in NevilleGoddard forums, perhaps regarding use of drugs (“Vyvanse mg”, “Adderall”, “mg”) for ADHD. This can be corroborated from comparing the N-grams and Wordclouds from these communities. 
+- Average negative emotion and average positive emotion tend to be less for Nietzsche posts than their respective values from NevilleGoddard. This indicates less emotional posts, or, perhaps a less subjective post which is corroborated from Subjectivity comparison.
+- There is a higher chance of encountering positive talks of “giving” and “listen” in NevilleGoddard than in Nietzsche. 
+- On the other hand, there is a prevalence of talks about “violence”, “nervousness” and “shame” in Nietzsche forums as compared to NevilleGoddard. Can a conclusion be drawn that Neville Goddard commenters look towards the positive aspects of life?
+- Some common causes of ADHD seem to stem from topics relating to “business”, “work” and “school”. “work” and “school” talks dominate in Nietzsche forums, while “business” dominates in NevilleGoddard.
 
 ![ADHD_NRCLex](resources/ADHD_NRCLex.png "ADHD_NRCLex") 
 
-Let’s look at NRCLex Scores. The average results are comparable except in the category of “anticipation”. There’s more talk of anticipation for NevilleGoddard posts. This is to be expected as the very principle of Law of attraction revolves around making a wish and anticipating an outcome. It doesn’t necessarily have negative connotations (except if the posts are talking about failed expectations, in which case, there should have been a difference in “negative” scores which is not observed here).
+- Let’s look at NRCLex Scores. The average results are comparable except in the category of “anticipation”. There’s more talk of anticipation for NevilleGoddard posts. This is to be expected as the very principle of Law of attraction revolves around making a wish and anticipating an outcome. It doesn’t necessarily have negative connotations (except if the posts are talking about failed expectations, in which case, there should have been a difference in “negative” scores which is not observed here).
 
 ![ADHD_Verb](resources/ADHD_Verb.png "ADHD_Verb") 
 
-Looking at Verb category, differences in “stative” and “creation” categories are observed. 
-For Noun Categories, a difference in “time”, “act” and “cognition” is observed. NevilleGoddard has a higher “time” frequency, which could show that there’s more talk about temporal relations. A possible reason could be that users are talking about an event in the past. Is it possible that there has been a recovery, a before-after story? 
-“cognition” dominates in case of Nietzsche. This denotes talks regarding cognitive processes such as thinking, judging, analyzing, doubting etc. “act” dominates as well, which denotes words of action. Can we assume that this points to a more practical attitude?
+- Looking at Verb category, differences in “stative” and “creation” categories are observed. 
+- For Noun Categories, a difference in “time”, “act” and “cognition” is observed. 
+- NevilleGoddard has a higher “time” frequency, which could show that there’s more talk about temporal relations. A possible reason could be that users are talking about an event in the past. Is it possible that there has been a recovery, a before-after story? 
+- “cognition” dominates in case of Nietzsche. This denotes talks regarding cognitive processes such as thinking, judging, analyzing, doubting etc. 
+- “act” dominates as well, which denotes words of action. Can we assume that this points to a more practical attitude?
 
 
 ![ADHD_Boxplot](resources/ADHD_Boxplot.png "ADHD_Boxplot") 
 
 
-Emotion change is observed for each of the users for the empathy and NRCLex categories and the change distributions are compared between the two subreddits using Mann-Whitney U-test.
-The number of valid data points are not large enough to give a conclusive difference between any of the variables that seem to have high statistical significance. So we compare the means of more frequently occurring emotions data such as NRCLex values.
-From the boxplots, fear, anger, disgust has seen an increase on an average for NevilleGoddard. The opposite change is observed for Nietzsche. A decreasing sadness and negative trend is observed from Nietzsche. An increase in ‘positive’, ‘surprise’ and ‘joy’ is observed for Nietzsche. This points to a positive overall change in relation to ADHD, a recovery. This recovery is more drastic in Nietzsche forums as compared to NevilleGoddard. 
+- Emotion change is observed for each of the users for the empathy and NRCLex categories and the change distributions are compared between the two subreddits using Mann-Whitney U-test.
+- The number of valid data points are not large enough to give a conclusive difference between any of the variables that seem to have high statistical significance. So we compare the means of more frequently occurring emotions data such as NRCLex values.
+- From the boxplots, fear, anger, disgust has seen an increase on an average for NevilleGoddard. 
+- The opposite change is observed for Nietzsche. A decreasing sadness and negative trend is observed from Nietzsche. 
+- An increase in ‘positive’, ‘surprise’ and ‘joy’ is observed for Nietzsche. This points to a positive overall change in relation to ADHD, a recovery. 
+- This recovery is more drastic in Nietzsche forums as compared to NevilleGoddard. 
 
 ![ADHD_Trend](resources/ADHD_Trend.png "ADHD_Trend") 
 
-Next, we look at the impact of COVID19 on the emotions evoked form these posts. A stark difference in ‘fear’, ‘anger’, ‘trust’, ‘surprise’, ‘negative’, ‘sadness’, ‘disgust’, ‘joy’ is observed. It’s interesting to note that Nietzsche posts experienced a drastic increase in negative emotions after January, 2020 while the opposite effect is observed for NevilleGoddard. 
+- Next, we look at the impact of COVID19 on the emotions evoked form these posts. A stark difference in ‘fear’, ‘anger’, ‘trust’, ‘surprise’, ‘negative’, ‘sadness’, ‘disgust’, ‘joy’ is observed. 
+- It’s interesting to note that Nietzsche posts experienced a drastic increase in negative emotions after January, 2020 while the opposite effect is observed for NevilleGoddard. 
 
 
-**Conclusion:** To conclude the analysis of ADHD forum, one can say that the recovery experienced by Nietzsche has been more drastic. These forums tended to have a dominance of negativity as compared to NevilleGoddard. Covid19 seems to have had a more pronounced effect on Nietzsche posts than NevilleGoddard posts. 
+**Conclusion:** One can say that the recovery experienced by Nietzsche posts has been more drastic. These forums tended to have a dominance of negativity as compared to NevilleGoddard. Covid19 seems to have had a more pronounced effect on Nietzsche posts than NevilleGoddard posts. 
 
 </p>
 </details>
@@ -158,11 +146,13 @@ Next, we look at the impact of COVID19 on the emotions evoked form these posts. 
 <summary>Expand OCD</summary>
 <p>
 
-## OCD:
+## OCD: Obsessive-compulsive disorder (OCD) features a pattern of unwanted thoughts and fears (obsessions) that lead you to do repetitive behaviors (compulsions). These obsessions and compulsions interfere with daily activities and cause significant distress.
 
 **Brief:**
 
-**Nietzsche to NevilleGoddard post ratio:** 55:50
+**Nietzsche:NevilleGoddard posts:** 55:50
+  
+**Analysis:**
 
 ![OCD_Bigram](resources/OCD_Bigram.png "OCD_Bigram") 
 
@@ -206,10 +196,12 @@ As a response to Covid19, Nietzsche posts show a greater value for all emotion c
 
 ## SuicideWatch:
 
-**Brief:**
+**Brief:** Peer support for anyone struggling with suicidal thoughts.
 
-**Nietzsche to NevilleGoddard post ratio:** 112: 137
+**Nietzsche:NevilleGoddard posts:** 112: 137
 
+**Analysis:**
+  
 ![SuicideWatch_Unigram](resources/SuicideWatch_Unigram.png "SuicideWatch_Unigram") 
 
 It is surprising that the word “die” which is expected to be prevalently used for a suicide forum doesn’t make it to the top 10 list of Nietzsche posts.
@@ -256,10 +248,14 @@ Covid19 reactions are mostly negative for NevilleGoddard posts as compared to Ni
   
 ## Depression:
 
-**Brief:**
+**Brief:** Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living.
 
-**Nietzsche to NevilleGoddard post ratio:** 145:70
+**Nietzsche:NevilleGoddard posts:** 145:70
 
+  
+**Analysis:**
+  
+  
 ![depression_Empath](resources/depression_Empath.png "depression_Empath") 
 
 When it comes to Empath Average Values, NevilleGoddard dominates in the emotion department (negative emotion, pain, violence, sadness, shame, love, suffering, nervousness, swearing terms). This is surprising as the polarity distributions looked similar. On the other hand, Nietzsche forum dominates in positive emotions such as speaking, communication, positive emotion, friends, giving, etc. There is a clear difference in the emotion distribution between the two subreddits, with Nietzsche tending towards the positive side.
@@ -292,10 +288,13 @@ Responses to Covid19 is similar for both the subreddits except Anticipation. Cov
   
 ## BPD:
 
-**Brief:**
+**Brief:** Borderline personality disorder is a mental illness that severely impacts a person's ability to regulate their emotions. This loss of emotional control can increase impulsivity, affect how a person feels about themselves, and negatively impact their relationships with others.
 
-**Nietzsche to NevilleGoddard post ratio:** 112: 62
+**Nietzsche:NevilleGoddard posts:** 112: 62
 
+  
+**Analysis:**
+  
 BPD Polarity | BPD Subjectivity
 :-------------------------:|:-------------------------:
 ![BPD_Polarity](resources/BPD_Polarity.png "BPD_Polarity")  |  ![BPD_Subjectivity](resources/BPD_Subjectivity.png "BPD_Subjectivity")
@@ -334,10 +333,13 @@ Covid19 responses are almost similar to each other except ‘negative’ and ‘
   
 ## Socialskills:
 
-**Brief:**
+**Brief:** A place to share your favorite social skills tips, ask for advice, or offer encouragement to others on their social skills journey. Welcome aboard!
 
-**Nietzsche to NevilleGoddard post ratio:** 87:55
+**Nietzsche:NevilleGoddard posts:** 87:55
 
+**Analysis:**
+  
+  
 Socialskills Polarity | Socialskills Subjectivity
 :-------------------------:|:-------------------------:
 ![Socialskills_Polarity](resources/Socialskills_Polarity.png "Socialskills_Polarity")  |  ![Socialskills_Subjectivity](resources/Socialskills_Subjectivity.png "Socialskills_Subjectivity")
@@ -379,10 +381,13 @@ From Covid19 reactions, it is clear that Nietzsche posts have a tendency for inc
 
 ## CPTSD:
 
-**Brief:**
+**Brief:** Complex post-traumatic stress disorder (complex PTSD, sometimes abbreviated to c-PTSD or CPTSD) is a condition where you experience some symptoms of PTSD along with some additional symptoms, such as: difficulty controlling your emotions. feeling very angry or distrustful towards the world.
 
-**Nietzsche to NevilleGoddard post ratio:** 82:80
+**Nietzsche:NevilleGoddard posts:** 82:80
 
+  
+**Analysis:**
+  
 ![CPTSD_Empath](resources/CPTSD_Empath.png "CPTSD_Empath") 
 
 There is a clear dominance of negative emotions in NevilleGoddard posts with top scoring categories violence, pain, love, shame, negative emotion, body. Positive emotion and speaking are higher for Nietzsche posts. 
@@ -416,10 +421,13 @@ NevilleGoddard posts have a greater value for negative emotions as a response to
 
 ## Raisedbynarcissists:
 
-**Brief:**
+**Brief:** This is a support group for people raised by abusive parents (with toxic, self-absorbed or abusive personality traits, which may be exhibited by those who suffer from cluster B personality disorders). Please share your stories, your questions, your histories, your fears and your triumphs. Significant others and friends are all welcome.
 
-**Nietzsche to NevilleGoddard post ratio:** 40:80
+**Nietzsche:NevilleGoddard posts:** 40:80
 
+**Analysis:**
+  
+  
 ![Raisedbynarcissists_Empath](resources/Raisedbynarcissists_Empath.png "Raisedbynarcissists_Empath") 
 
 There is a clear dominance of negativity in Nietzsche posts over NevilleGoddard posts (positive emotion, negative emotion, pain, shame, dispute, swearing terms, suffering). 
@@ -452,10 +460,13 @@ As usual, NevilleGoddard posts tend to score higher in negative emotion categori
   
 ## NarcissisticAbuse:
 
-**Brief:**
+**Brief:** This is a place for victims of narcissistic abuse to come together to support, encourage, learn from, share with, and validate one another. It is NOT a replacement for therapy or counseling. We support abusive relationships from romance, work, roommates & friends. No family content except for you, your partner/ex & your children (no abusive kids). All others will be removed including mentions like family/friends or childhood content. No demands to explain our rules or "just curious" requests.
 
-**Nietzsche to NevilleGoddard post ratio:** 47: 75
+**Nietzsche:NevilleGoddard posts:** 47: 75
 
+  
+**Analysis:**
+  
 ![NarcissisticAbuse_Empath](resources/NarcissisticAbuse_Empath.png "NarcissisticAbuse_Empath") 
 
 Nietzsche posts have a dominance of negative emotions over NevilleGoddard posts.
