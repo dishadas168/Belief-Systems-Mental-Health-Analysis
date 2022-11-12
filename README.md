@@ -45,7 +45,7 @@ This led me to investigate the effect of mental health problems as a result of b
 
 I scraped *Reddit* using **Pushshift.io** API. I found all the authors who have posted in either of the philosophy subreddits and also in any of mental health subreddits. Then I scrape all the posts and comments made by these authors and run a comparison between them. Turns out that authors that post in either of these philosophy subreddits are mutually exclusive.
 
-![picture alt](resources/total_posts.png "Title is optional")
+![Total Posts](resources/total_posts.png "Total Posts")
 
 <br />
 
@@ -104,15 +104,18 @@ ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, N
 **Nietzsche to NevilleGoddard posts ratio:** 155:90
 
 **Analysis:**
-Polarity
-Empath category
-Ngram
-Verb category
-Noun Categoyr
-Trend Data
 
-Polarity scores for NevilleGoddard posts seems to be balanced between positive and negative sentiments. On the other hand, Nietzsche posts are skewed towards positive sentiments.
-When it comes to Subjectivity, Neville Goddard posts seem to be more subjective than Nietzsche posts
+ADHD Polarity | ADHD Subjectivity
+:-------------------------:|:-------------------------:
+![ADHD_Polarity](resources/ADHD_Polarity.png "ADHD_Polarity")  |  ![ADHD_Subjectivity](resources/ADHD_Subjectivity.png "ADHD_Subjectivity")
+
+
+Polarity scores for NevilleGoddard posts seems to be balanced between positive and negative sentiments. On the other hand, Nietzsche posts are skewed towards positive sentiments. When it comes to Subjectivity, NevilleGoddard posts seem to be more subjective.
+
+![ADHD_Empath](resources/ADHD_Empath.png "ADHD_Empath") 
+
+![ADHD_Bigram](resources/ADHD_Bigram.png "ADHD_Bigram") 
+
 Looking at Empath category plots, there’s more talk of health in NevilleGoddard forums, perhaps regarding use of drugs (“Vyvanse mg”, “Adderall”, “mg”) for ADHD. This can be corroborated from comparing the N-grams and Wordclouds from these communities. 
 
 Average Negative emotion and average positive emotion tends to be less for Nietzsche posts than their respective values from NevilleGoddard. This indicates less emotional posts, or, perhaps a less subjective post which is corroborated from Subjectivity comparison.
@@ -120,18 +123,30 @@ Average Negative emotion and average positive emotion tends to be less for Nietz
 There is a higher chance of encountering positive talks of “giving” and “listen” in NevilleGoddard than in Nietzsche. On the other hand, there is a prevalence of talks about “violence”, “nervousness” and “shame” in Nietzsche forums as compared to NevilleGoddard. Can a conclusion be drawn that Neville Goddard commenters look towards the positive aspects of life?
 Some common causes of ADHD seem to stem from topics relating to “business”, “work” and “school”. “work” and “school” talks dominate in Nietzsche forums, while “business” dominates in NevilleGoddard.
 
+![ADHD_NRCLex](resources/ADHD_NRCLex.png "ADHD_NRCLex") 
+
 Let’s look at NRCLex Scores. The average results are comparable except in the category of “anticipation”. There’s more talk of anticipation for NevilleGoddard posts. This is to be expected as the very principle of Law of attraction revolves around making a wish and anticipating an outcome. It doesn’t necessarily have negative connotations (except if the posts are talking about failed expectations, in which case, there should have been a difference in “negative” scores which is not observed here).
+
+![ADHD_Verb](resources/ADHD_Verb.png "ADHD_Verb") 
+
 Looking at Verb category, differences in “stative” and “creation” categories are observed. 
 For Noun Categories, a difference in “time”, “act” and “cognition” is observed. NevilleGoddard has a higher “time” frequency, which could show that there’s more talk about temporal relations. A possible reason could be that users are talking about an event in the past. Is it possible that there has been a recovery, a before-after story? 
 “cognition” dominates in case of Nietzsche. This denotes talks regarding cognitive processes such as thinking, judging, analyzing, doubting etc. “act” dominates as well, which denotes words of action. Can we assume that this points to a more practical attitude?
+
+
+![ADHD_Boxplot](resources/ADHD_Boxplot.png "ADHD_Boxplot") 
 
 
 Emotion change is observed for each of the users for the empathy and NRCLex categories and the change distributions are compared between the two subreddits using Mann-Whitney U-test.
 The number of valid data points are not large enough to give a conclusive difference between any of the variables that seem to have high statistical significance. So we compare the means of more frequently occurring emotions data such as NRCLex values.
 From the boxplots, fear, anger, disgust has seen an increase on an average for NevilleGoddard. The opposite change is observed for Nietzsche. A decreasing sadness and negative trend is observed from Nietzsche. An increase in ‘positive’, ‘surprise’ and ‘joy’ is observed for Nietzsche. This points to a positive overall change in relation to ADHD, a recovery. This recovery is more drastic in Nietzsche forums as compared to NevilleGoddard. 
 
+![ADHD_Trend](resources/ADHD_Trend.png "ADHD_Trend") 
+
 Next, we look at the impact of COVID19 on the emotions evoked form these posts. A stark difference in ‘fear’, ‘anger’, ‘trust’, ‘surprise’, ‘negative’, ‘sadness’, ‘disgust’, ‘joy’ is observed. It’s interesting to note that Nietzsche posts experienced a drastic increase in negative emotions after January, 2020 while the opposite effect is observed for NevilleGoddard. 
 To conclude the analysis of ADHD forum, one can say that the recovery experienced by Nietzsche has been more drastic. These forums tended to have a dominance of negativity as compared to NevilleGoddard. Covid19 seems to have had a more pronounced effect on Nietzsche posts than NevilleGoddard posts. 
+
+**Conclusion:**
 
 
 ### Depression:
