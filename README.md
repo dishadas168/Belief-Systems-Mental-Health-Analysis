@@ -96,6 +96,10 @@ ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, N
 
 <br />
 
+<details>
+<summary>Expand ADHD</summary>
+<p>
+
 ## ADHD
 
 **Brief:**
@@ -147,6 +151,13 @@ Next, we look at the impact of COVID19 on the emotions evoked form these posts. 
 
 **Conclusion:** To conclude the analysis of ADHD forum, one can say that the recovery experienced by Nietzsche has been more drastic. These forums tended to have a dominance of negativity as compared to NevilleGoddard. Covid19 seems to have had a more pronounced effect on Nietzsche posts than NevilleGoddard posts. 
 
+</p>
+</details>
+
+<details>
+<summary>Expand OCD</summary>
+<p>
+
 ## OCD:
 
 **Brief:**
@@ -185,6 +196,13 @@ As a response to Covid19, Nietzsche posts show a greater value for all emotion c
 
 **Conclusion:** Since the results are ambiguous, no belief system is found to help the cause of OCD.
 
+</p>
+</details>
+  
+<details>
+<summary>Expand SuicideWatch</summary>
+<p>
+  
 
 ## SuicideWatch:
 
@@ -228,7 +246,14 @@ Covid19 reactions are mostly negative for NevilleGoddard posts as compared to Ni
 
 **Conclusion:** Again, Nietzsche posts show a clear improvement in SuicideWatch forum while NevilleGoddard posts are ambiguous.
 
-
+</p>
+</details>
+  
+<details>
+<summary>Expand Depression</summary>
+<p>
+  
+  
 ## Depression:
 
 **Brief:**
@@ -257,6 +282,14 @@ Responses to Covid19 is similar for both the subreddits except Anticipation. Cov
 
 **Conclusion:** For depression, everything indicates to Nietzsche being a healthier belief system than NevilleGoddard.
 
+</p>
+</details>
+  
+<details>
+<summary>Expand BPD</summary>
+<p>
+  
+  
 ## BPD:
 
 **Brief:**
@@ -291,6 +324,14 @@ Covid19 responses are almost similar to each other except ‘negative’ and ‘
 
 **Conclusion:** For BPD, it is clear that NevilleGoddard posts have a bias towards being more emotional and it seems like they have experienced drastic (but ambiguous) changes compared to Nietzsche authors. Both the belief systems have more or less similar effects on the posts of these authors. A clear recommendation is hard to make.
 
+  
+</p>
+</details>
+  
+<details>
+<summary>Expand Socialskills</summary>
+<p>
+  
 ## Socialskills:
 
 **Brief:**
@@ -328,6 +369,13 @@ From Covid19 reactions, it is clear that Nietzsche posts have a tendency for inc
 
 **Conclusion:** It is very clear that the belief system of NevilleGoddard doesn’t serve well to tackle the problem of social anxiety.
 
+  
+</p>
+</details>
+  
+<details>
+<summary>Expand CPTSD</summary>
+<p>
 
 ## CPTSD:
 
@@ -357,6 +405,14 @@ Both the subreddits experience similar change in emotions (for the better, a rec
 NevilleGoddard posts have a greater value for negative emotions as a response to Covid19 but similar reactions to Nietzsche posts for positive emotions.
 
 **Conclusion:** There’s no clear recommendation of a belief system for CPTSD sufferers.
+ 
+  
+</p>
+</details>
+  
+<details>
+<summary>Expand Raisedbynarcissists</summary>
+<p>  
 
 ## Raisedbynarcissists:
 
@@ -386,6 +442,14 @@ As usual, NevilleGoddard posts tend to score higher in negative emotion categori
 
 **Conclusion:** In this case, neither of the belief systems is recommended to be pursued as neither showed any indications of recovery.
 
+  
+</p>
+</details>
+  
+<details>
+<summary>Expand NarcissisticAbuse</summary>
+<p>
+  
 ## NarcissisticAbuse:
 
 **Brief:**
@@ -410,6 +474,8 @@ This is corroborated from Covid19 response plots, where except for fear and ange
 
 **Conclusion:**
 
+</p>
+</details>
 
 ## Results:
 
