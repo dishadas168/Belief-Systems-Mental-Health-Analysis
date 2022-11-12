@@ -99,7 +99,15 @@ ADHD, depression, BPD, socialskills, SuicideWatch, CPTSD, raisedbynarcissists, N
 
 ### ADHD
 
-Nietzsche to NevilleGoddard post ratio: 155:90
+**Nietzsche to NevilleGoddard posts ratio:** 155:90
+
+**Analysis:**
+Polarity
+Empath category
+Ngram
+Verb category
+Noun Categoyr
+Trend Data
 
 Polarity scores for NevilleGoddard posts seems to be balanced between positive and negative sentiments. On the other hand, Nietzsche posts are skewed towards positive sentiments.
 When it comes to Subjectivity, Neville Goddard posts seem to be more subjective than Nietzsche posts
@@ -112,8 +120,10 @@ Some common causes of ADHD seem to stem from topics relating to “business”, 
 
 Let’s look at NRCLex Scores. The average results are comparable except in the category of “anticipation”. There’s more talk of anticipation for NevilleGoddard posts. This is to be expected as the very principle of Law of attraction revolves around making a wish and anticipating an outcome. It doesn’t necessarily have negative connotations (except if the posts are talking about failed expectations, in which case, there should have been a difference in “negative” scores which is not observed here).
 Looking at Verb category, differences in “stative” and “creation” categories are observed. 
-For Noun Categories, a difference in “time”, “act” and “cognition” is observed. NevilleGoddard has a higher “time” frequency, which shows that there’s more talk about temporal relations. A possible reason could be that users are talking about an event in the past. Is it possible that there has been a recovery, a before-after story? 
-“cognition” dominates in case of Nietzsche. This denotes talks regarding cognitive processes such as  thinking, judging, analyzing, doubting etc. “act” dominates as well, which denotes words of action. Can we assume that this points to a more practical attitude?
+For Noun Categories, a difference in “time”, “act” and “cognition” is observed. NevilleGoddard has a higher “time” frequency, which could show that there’s more talk about temporal relations. A possible reason could be that users are talking about an event in the past. Is it possible that there has been a recovery, a before-after story? 
+“cognition” dominates in case of Nietzsche. This denotes talks regarding cognitive processes such as thinking, judging, analyzing, doubting etc. “act” dominates as well, which denotes words of action. Can we assume that this points to a more practical attitude?
+
+
 Emotion change is observed for each of the users for the empathy and NRCLex categories and the change distributions are compared between the two subreddits using Mann-Whitney U-test.
 The number of valid data points are not large enough to give a conclusive difference between any of the variables that seem to have high statistical significance. So we compare the means of more frequently occurring emotions data such as NRCLex values.
 From the boxplots, fear, anger, disgust has seen an increase on an average for NevilleGoddard. The opposite change is observed for Nietzsche. A decreasing sadness and negative trend is observed from Nietzsche. An increase in ‘positive’, ‘surprise’ and ‘joy’ is observed for Nietzsche. This points to a positive overall change in relation to ADHD, a recovery. This recovery is more drastic in Nietzsche forums as compared to NevilleGoddard. 
@@ -209,6 +219,7 @@ Since the results are ambiguous, no belief system is found to help the cause of 
 
 ### Results:
 
+- Posts from r/Nietzsche almost always tended towards less subjectivity
 Users that subscribed to the belief system of Existentialism seem to have a greater improvement across most of the mental health subreddits that have been examined here.
 
 ----
